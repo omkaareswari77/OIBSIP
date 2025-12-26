@@ -1,0 +1,67 @@
+body {
+    background-color: #101828;  /* slightly different dark */
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.task-card {
+    display: flex;
+    width: 720px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #1f2937;
+}
+
+/* Left Side */
+.left-side {
+    background-color: #00d18b; /* slightly different green */
+    width: 40%;
+    text-align: center;
+    padding: 35px;
+    color: #000;
+}
+
+.left-side h2 {
+    margin-bottom: 8px;
+}
+
+.left-side img {
+    width: 70px;
+    margin-top: 20px;
+}
+
+/* Left side extra text */
+.left-side p {
+    color: #000;
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+/* Right Side */
+.right-side {
+    width: 60%;
+    padding: 35px;
+    color: #f8fafc;
+}
+
+.right-side h3 {
+    color: #facc15;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.right-side p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.right-side a {
+    color: #36aee5;  /* slightly different link color */
+    text-decoration: none;
+    font-weight: bold;
+}
