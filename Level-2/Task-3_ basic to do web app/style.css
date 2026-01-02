@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.task-section {
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.task-actions {
+    margin-top: 5px;
+}
+
+.task-actions button {
+    margin-right: 5px;
+    font-size: 12px;
+}
